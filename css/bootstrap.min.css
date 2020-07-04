@@ -1880,7 +1880,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-valid:focus,
 .was-validated .custom-select:valid:focus,
 .was-validated .form-control:valid:focus {
-    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
+    box-shadow: 0 0 0 .2rem rgba(104, 47, 196, 0.25)
 }
 
 .custom-select.is-valid~.invalid-feedback,
@@ -2145,7 +2145,7 @@ fieldset[disabled] a.btn {
 
 .btn-secondary {
     color: #fff;
-    background-color: #868e96;
+    background-color: #e07949 !important;
     border-color: #868e96
 }
 
@@ -5417,7 +5417,9 @@ button.close {
     padding-left: 0;
     margin-right: 15%;
     margin-left: 15%;
-    list-style: none
+    list-style: none;
+    color: rgb(7, 0, 0);
+    
 }
 
 .carousel-indicators li {
@@ -5429,7 +5431,7 @@ button.close {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: rgba(255, 255, 255, .5)
+    background-color: rgba(3, 3, 3, 0.5);
 }
 
 .carousel-indicators li::before {
@@ -5452,8 +5454,8 @@ button.close {
     content: ""
 }
 
-.carousel-indicators .active {
-    background-color: #fff
+.carousel-indicators .active{
+    background-color: rgb(10, 10, 10) !important;
 }
 
 .carousel-caption {
